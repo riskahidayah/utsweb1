@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffe0f0; 
+}
+
+.container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+    width: 400px;
+    transition: transform 0.2s ease-in-out;
+    border: 2px solid #ff69b4; 
+}
+
+.container:hover {
+    transform: scale(1.03);
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #ff69b4; 
+}
+
+h1 {
+    font-size: 28px;
+    color: #ff69b4; 
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.biodata {
+    margin-top: 20px;
+    text-align: left; 
+    color: #444;
+    padding: 0 20px; 
+}
+
+.biodata h2 {
+    font-size: 20px;
+    color: #ff69b4; 
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ff69b4; 
+    display: inline-block;
+    padding-bottom: 5px;
+    text-align: center; 
+}
+
+.biodata p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.biodata strong {
+    color: #ff1493; 
+}
+
+.biodata a {
+    color: #ff1493; 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.biodata a:hover {
+    text-decoration: underline;
+    color: #ff69b4; 
+}
+
+footer {
+    margin-top: 25px;
+}
+
+.footer-text {
+    font-size: 15px;
+    color: #fffcfc;
+    background-color: #ff69b4; 
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
